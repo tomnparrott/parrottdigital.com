@@ -33,6 +33,12 @@ margin:0 auto;
 	padding-right: 15px;
 
   }
+
+  .twitter-timeline{
+    max-height: 400px;
+    overflow: scroll;
+    width: 99%;
+  }
   
 /* Start Global Rules */
 * {
