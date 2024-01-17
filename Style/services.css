@@ -1,14 +1,12 @@
 .services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    /* overflow: auto; */
-    margin: 50px auto;
-  }
-body{
-    margin-right: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  /* overflow: auto; */
+  margin: 50px auto;
 }
+
 .pricecol
 {
 width:31%;
@@ -21,33 +19,28 @@ text-align:center;
 font-family:verdana;
 float:left;
 margin-left:20px;
-border: #6c63ff; 
+border: rgb(9, 106, 192); 
 border-style:groove; 
 margin-bottom: 10px; 
-box-shadow: 0 40px 80px #FBE4E0;
+box-shadow: 0 10px 10px rgb(144, 190, 232);
 }
-.icon
+.icons
 {
 width:70px;
 height:70px;
 border-radius:100%;
-background: #6c63ff;
+background: rgb(9, 106, 192);
 color:#fff;
 text-align:center;
 position:relative;
 margin:0 auto;
 
 }
-/* .icon i
-{
-font-size:30px;
-position:relative;
-top:15px;
-} */
+
 h3
 {
 text-align:center;
-background: linear-gradient(90deg, #6c63ff, 40%, #6b63ff79);
+background: linear-gradient(90deg, rgb(9, 106, 192), 40%, rgb(9, 106, 192));
 text-align:center;
 border-top:1px solid whitesmoke;
 border-bottom:1px solid whitesmoke;
@@ -77,7 +70,7 @@ display:inline-block;
 {
 display:inline-block;
 padding:10px 15px;
-background: none repeat scroll 0% 0% #6c63ff;
+background: none repeat scroll 0% 0% rgb(9, 106, 192);
 border-radius:20px;
 box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.3) inset, 0px 2px 0px rgba(255, 255, 255, 
 
@@ -106,8 +99,11 @@ border-bottom:1px solid rgb(25, 31, 34); */
 }
 
 @media (max-width: 768px) {
-    .pricecol {
-      width: 100%;
-      margin-bottom: 20px;
-    }
+  .pricecol {
+    width: 95%;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
