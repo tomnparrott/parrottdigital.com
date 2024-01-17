@@ -767,7 +767,9 @@ footer{
 		width: 50px;
 	}
 
-
+	.buttons{
+		width: 90vw;
+	}
   }
   
 @media (max-width: 750px) {
